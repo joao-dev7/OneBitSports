@@ -25,11 +25,13 @@ header {
     width: 180px;
 }
 .buttons {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     gap: 15px;
 }
 .header-button {
     font-size: 16px;
+    text-decoration: none;
     padding: 8px;
     cursor: pointer;
     color: white;
