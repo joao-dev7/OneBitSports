@@ -4,20 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | OneBitSports</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <div class="container">
+
         <header>
-            <img class="header-img" src="../images/logo-onebitcode.svg" alt="logo-obc">
+            <a href="../index.html">
+                <img class="header-img" src="../images/logo-onebitcode.svg" alt="logo-obc">
+            </a>
             <div class="buttons">
                 <a href="../pages/login.html" class="header-button">Login</a>
                 <a href="./pages/registro.html" class="header-button">Registro</a>
                 <a href="./pages/faq.html" class="header-button">FAQ</a>
             </div>
         </header>
+
+        <section class="formSection">
+            <form class="formSection-form">
+                <img class="form-img" src="../images/hero.png" alt="logo-obc">
+                <h2 class="form-h2">Acessar sua conta</h2>
+                <label class="form-label" for="email">E-mail</label>
+                <input class="form-input" type="email" id="email">
+                <label class="form-label" for="pass">Senha</label>
+                <input class="form-input" type="password" id="pass">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="confirm-auth">
+                    <label class="form-label" for="confirm-auth">Lembrar de mim</label>
+                </div>
+                <button class="form-button" type="submit">ENTRAR</button>
+                <a href="" class="form-help">Esqueceu sua senha?</a>
+                </form>
+        </section>
+
         <footer>
-            <img class="footer-img" src="../images/logo-onebitcode.svg" alt="logo-obc">
-            <a href="#backToTop" class="footer-button" >VOLTAR PARA O TOPO</a>
+            <p class="footer-text">Desenvolvido por <a href="">JoãoDev</a></p>
         </footer>
     </div>
     
