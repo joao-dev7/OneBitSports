@@ -112,6 +112,12 @@ header {
     color: white;
     font-size: 15px;
 }
+.messageError {
+    padding-left: 10px;
+    color: #e65252;
+    margin-top: 10px;
+    font-size: 16px;
+}
 /* FOOTER */
 footer {
     display: flex;
