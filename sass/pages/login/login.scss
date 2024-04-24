@@ -1,0 +1,135 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* HEADER */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 15px;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #363535;
+    min-height: 40px;
+}
+.header-img{
+    width: 180px;
+}
+.buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 15px;
+}
+.header-button {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid transparent ;
+    background-color: transparent;
+    transition: 0.4s;
+}
+.header-button:hover {
+    border-bottom: 2px solid  #141313 ;
+}
+/* FORM */
+.formSection {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+.formSection-form {
+    display: flex;
+    justify-content: center;
+    min-width: 280px;
+    width: 550px;
+    height: 580px;
+    padding: 30px;
+    background-color: #363535;
+    flex-direction: column;
+}
+.form-img {
+    align-self: center;
+    margin-bottom: 10px;
+    width: 30px;
+}
+.form-h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 0 0 0 30px;
+}
+.form-label{
+    font-size: 18px;
+    margin:25px 0 8px 0;
+}
+.form-input {
+    text-indent: 10px;
+    padding: 8px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.form-button {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding:8px 0;
+    font-size: 16px;
+    letter-spacing: .6px;
+    background-color: white;
+    border-color: transparent;
+}
+.form-button:hover {
+    background-color: #e65252;
+    color: white;
+    transition: .5s;
+}
+.form-check {
+    margin-top: 25px;
+    align-self: center;
+}
+.form-check label {
+    font-size: 15px;
+}
+.form-help {
+    margin-top: 15px;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.messageError {
+    padding-left: 10px;
+    color: #e65252;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.sucess {
+    display: none;
+}
+/* FOOTER */
+footer {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #363535;
+    min-height: 40px;
+}
+.footer-text {
+    font-size: 16px;
+    color: white;
+}
+.footer-text a {
+    font-size: 16px;
+    color: white;
+}
