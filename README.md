@@ -9,12 +9,6 @@ O projeto contém atualmente a página inicial, de um site de artigos esportivos
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-
-## Demonstração
-
-Insira um gif ou um link de alguma demonstração
-
-
 ## Funcionalidades
 
 - Modo tela cheia
