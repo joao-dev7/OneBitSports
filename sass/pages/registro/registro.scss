@@ -45,7 +45,7 @@ header {
     width: 100%;
     color: white;
 }
-.form {
+.cadastre-area {
     display: flex;
     justify-content: center;
     min-width: 280px;
@@ -55,44 +55,32 @@ header {
     background-color: #363535;
     flex-direction: column;
 }
-.form-img {
-    align-self: center;
-    margin-bottom: 10px;
-    width: 30px;
+.cadastre-area {
+    img {
+        align-self: center;
+        margin-bottom: 10px;
+        width: 30px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 25px;
+        padding: 0 0 0 30px;
+    }
+    /* Form-Progress */
+    .progress {
+        align-self: center;
+        margin-top: 30px;
+    }
+    .progress span {
+        background-color: #5a5a5a;
+        padding: 10px 10px;
+        border-radius: 20px;
+        &:first-child {
+            background-color: #52a866;
+        }
+    }
 }
-.form-h2 {
-    text-align: center;
-    font-size: 25px;
-    padding: 0 0 0 30px;
-}
-/* Form-Progress */
-.progress {
-    align-self: center;
-    margin-top: 30px;
-}
-.progress span {
-    background-color: #5a5a5a;
-    padding: 10px 10px;
-    border-radius: 20px;
-}
-.progress span:first-child {
-    background-color: #52a866;
-}
-.form-button {
-    cursor: pointer;
-    border-radius: 10px;
-    margin-top: 15px;
-    padding:8px 0;
-    font-size: 16px;
-    letter-spacing: .6px;
-    background-color: white;
-    border-color: transparent;
-}
-.form-button:hover {
-    background-color: #e65252;
-    color: white;
-    transition: .5s;
-}
+
 .messageError {
     padding-left: 10px;
     color: #e65252;
@@ -103,7 +91,7 @@ header {
     display: none;
 }
 /* FOOTER */
-footer {
+.footer-registre {
     display: flex;
     width: 100%;
     padding: 30px;

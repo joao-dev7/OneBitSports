@@ -149,7 +149,7 @@ main {
 }
 
 /* FOOTER */
-footer {
+.footer-home {
   display: flex;
   width: 100%;
   padding: 30px;
@@ -330,7 +330,7 @@ header {
 }
 
 /* FOOTER */
-footer {
+.footer-login {
   display: flex;
   width: 100%;
   padding: 30px;
@@ -405,7 +405,7 @@ header {
   color: white;
 }
 
-.form {
+.cadastre-area {
   display: flex;
   justify-content: center;
   min-width: 280px;
@@ -416,49 +416,30 @@ header {
   flex-direction: column;
 }
 
-.form-img {
+.cadastre-area {
+  /* Form-Progress */
+}
+.cadastre-area img {
   align-self: center;
   margin-bottom: 10px;
   width: 30px;
 }
-
-.form-h2 {
+.cadastre-area h2 {
   text-align: center;
   font-size: 25px;
   padding: 0 0 0 30px;
 }
-
-/* Form-Progress */
-.progress {
+.cadastre-area .progress {
   align-self: center;
   margin-top: 30px;
 }
-
-.progress span {
+.cadastre-area .progress span {
   background-color: #5a5a5a;
   padding: 10px 10px;
   border-radius: 20px;
 }
-
-.progress span:first-child {
+.cadastre-area .progress span:first-child {
   background-color: #52a866;
-}
-
-.form-button {
-  cursor: pointer;
-  border-radius: 10px;
-  margin-top: 15px;
-  padding: 8px 0;
-  font-size: 16px;
-  letter-spacing: 0.6px;
-  background-color: white;
-  border-color: transparent;
-}
-
-.form-button:hover {
-  background-color: #e65252;
-  color: white;
-  transition: 0.5s;
 }
 
 .messageError {
@@ -473,7 +454,7 @@ header {
 }
 
 /* FOOTER */
-footer {
+.footer-registre {
   display: flex;
   width: 100%;
   padding: 30px;
