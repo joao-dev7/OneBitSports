@@ -456,6 +456,37 @@ header {
   background-color: #52a866;
 }
 
+.form-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.confirm-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 35px;
+}
+.confirm-btn:hover {
+  transition: 0.5s;
+  background-color: #e65252;
+  color: white;
+}
+
+.cadastre label {
+  margin-left: 10px;
+}
+.cadastre input {
+  text-indent: 10px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px 0px;
+}
+
 .messageError {
   padding-left: 10px;
   color: #e65252;
