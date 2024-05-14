@@ -1,22 +1,33 @@
-const btn = document.querySelector('button')
-const email = document.querySelector('#email')
-const pass = document.querySelector('#pass')
-const form = document.querySelector('form')
+const btn = document.querySelector('button');
+const form = document.querySelector('form');
 
-btn.addEventListener('click',(e) => {
-    e.preventDefault()
-    testValue()
-})
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    testValue();
+});
 
 function testValue() {
-    if(email.value < 1) {
-        document.getElementById('email-error').innerText = 'Campo Vázio'
+    const email = document.querySelector('#email').value;
+    const pass = document.querySelector('#pass').value;
+    const emailError = document.getElementById('email-error');
+    const passError = document.getElementById('pass-error');
+
+    if (email.length < 1) {
+        emailError.classList.remove('success');
+        emailError.innerText = 'Campo Vazio';
     } else {
-        document.getElementById('email-error').classList.add('sucess')
+        emailError.classList.add('success');
     }
-    if(pass.value < 1) {
-        document.getElementById('pass-error').innerText = 'Campo Vázio'
+
+    if (pass.length < 1) {
+        passError.classList.remove('success');
+        passError.innerText = 'Campo Vazio';
     } else {
-        document.getElementById('pass-error').classList.add('sucess')
+        passError.classList.add('success');
+    }
+
+    if (email.length >= 1 && pass.length >= 1) {
+        form.submit();
+        alert('Login realizado com sucesso!')
     }
 }
